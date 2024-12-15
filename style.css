@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #161B33;
+    color: #f1dac4;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.dabba, #reset, #NewGame {
+    background-color: #f1dac4;
+    color: #161B33;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dabba {
+    height: 18vmin;
+    width: 18vmin;
+    padding: 10px;
+    font-size: 8vmin;
+}
+
+#reset, #NewGame {
+    gap: 0.1vmin;
+    padding: 10px;
+    font-size: 2vmin;
+    margin-top: 2vmin;
+}
+
+#reset {
+    height: 5vmin;
+    width: 10vmin;
+}
+
+#NewGame {
+    height: 7vmin;
+    width: 13vmin;
+    padding: 10px;
+    display: block;
+    margin: 5px auto;
+}
+
+#msg {
+    font-size: 5vmin;
+    margin-top: 2vmin;
+text-shadow: 0 0 2px #ffffff;
+}
+
+.hide {
+    display: none;
+}
+.result {
+    text-align: center;
+}
+
+
